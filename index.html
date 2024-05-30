@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Terminal Emulator</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Fira+Code" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/ansi_up@5.1.0/ansi_up.min.js"></script>
+</head>
+<body>
+  <div id="terminal">
+    <div id="prompt-container">
+      <span id="prompt">&gt; </span>
+      <input type="text" id="input" class="input" placeholder="">
+      <button id="clearButton" class="send">Clear</button>
+    </div>
+    <div id="output"></div>
+  </div>
+  <script src="terminal.js"></script>
+</body>
+</html>
+
